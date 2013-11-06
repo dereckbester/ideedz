@@ -16,10 +16,6 @@
 <?php include('_partials/navigation-top-fixed.php');?>
 <!-- .END - Fixed Navigation bar with dropdown menu -->
 
-<!-- Carousel - Slider -->
-<?php /* include('_partials/carousel.php'); */?>
-<!-- .END Carousel - Slider -->
-
 <!-- Grid -->
 
 <div class="container">
@@ -60,9 +56,7 @@
 
 <!-- .END Grid -->
 
-<!-- Font Awesome Icons -->
-<?php include('_partials/font-awesome.php');?>
-<!-- .END Font Awesome Icons -->
+
 
 <!-- Footer and Modal -->
 <div class="container">

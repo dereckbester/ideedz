@@ -1,5 +1,9 @@
 /* 0. RESETS*/
 
+/* Add padding to top of body to prevent content from dissapearing behind navigation bar */
+body{
+	padding-top: 50px;
+}
 /* Remove dotted line from clicked links */
 a, a:active, a:focus {
 	outline: none;
