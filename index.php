@@ -67,7 +67,7 @@
 <!-- Footer and Modal -->
 <div class="container">
 	<div class="row">
-    	<div class="col-md-lg-12">
+    	<div class="col-md-12">
         	
             <hr/>
             <!-- Copyright Info -->

@@ -21,37 +21,114 @@
 <div class="container">
 
 	<div class="row">
-    
-    	<div class="col-md-4">
-        	<h2>First Heading</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo justo a rutrum fringilla. Curabitur rhoncus risus scelerisque, vulputate quam at, euismod velit.</p>
+
+    	<div class="col-md-12">
+        	<h2>Contact</h2>
+            <hr/>
+            
+            <!-- Contact Form -->
+            <form class="form-horizontal">
+            	
+                <!-- Form - Name -->
+                <div class="form-group">
+                	<label for="name" class="col-sm-2 control-label">Name</label>
+                    <div class="col-sm-6">
+                   		<input type="text" class="form-control" name="name" placeholder="What is your name?" />
+					</div>
+                </div>
+                <!-- .END - Form - Name -->
+                
+                <!-- Form - Email -->
+                <div class="form-group">
+                	<label for="email" class="col-sm-2 control-label">Email</label>
+                    <div class="col-sm-6">
+                   		<input type="email" class="form-control" name="email" placeholder="What is your email address?" />
+					</div>
+                </div>
+                <!-- .END - Form - Email -->
+                
+                <!-- Form - Message -->
+                <div class="form-group">
+                	<label for="message" class="col-sm-2 control-label">Message</label>
+                    <div class="col-sm-6">
+                   		<textarea class="form-control" rows="3" placeholder="What can we help you with?"></textarea>
+					</div>
+                </div>
+                <!-- .END - Form - Message -->
+                
+                <!-- Form - Checkboxes -->
+                <div class="form-group">
+                	<label for="website" class="col-sm-2 control-label">Favourite Websites</label>
+                    <div class="col-sm-6">
+                   		<label class="checkbox-inline">
+                        	<input type="checkbox" value="option1"/> YouTube
+                        </label>
+                        
+                        <label class="checkbox-inline">
+                        	<input type="checkbox" value="option2"/> Twitter
+                        </label>
+                        
+                        <label class="checkbox-inline">
+                        	<input type="checkbox" value="option3"/> Facebook
+                        </label>
+                        
+                        <label class="checkbox-inline">
+                        	<input type="checkbox" value="option4"/> 9Gag
+                        </label>
+                        
+                        <label class="checkbox-inline">
+                        	<input type="checkbox" value="option5"/> Mashable
+                        </label>
+					</div>
+                </div>
+                <!-- .END - Form - Checkboxes -->
+                
+                <!-- Form - Radio Buttons -->
+                <div class="form-group">
+                	<label for="website" class="col-sm-2 control-label">Gender</label>
+                    <div class="col-sm-6">
+                   		<label class="radio-inline">
+                        	<input type="radio" name="genderOption" value="option1"/> Male
+                        </label>
+                        
+                        <label class="radio-inline">
+                        	<input type="radio" name="genderOption" value="option2"/> Female
+                        </label>
+					</div>
+                </div>
+                <!-- .END - Form - Radio Buttons -->
+                
+                <!-- Form - Geographic Info -->
+                <div class="form-group">
+                	<label for="website" class="col-sm-2 control-label">City</label>
+                    <div class="col-sm-6">
+                   		<select class="form-control">
+                        	<option>Cape Town</option>
+                            <option>Durban</option>
+                            <option>George</option>
+                            <option>Johannesburg</option>
+                            <option>Mosselbay</option>
+                            <option>Port Elizabeth</option>
+                        </select>
+					</div>
+                </div>
+                <!-- .END - Form - Geographic Info -->
+                
+                <!-- Form - Submit Button -->
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-6">
+                   		<button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="reset" class="btn btn-default">Clear</button>
+					</div>
+                </div>
+                <!-- .END - Form - Submit Button -->
+                
+            </form>
+            <!-- .END - Contact Form -->
         </div>
-        
-        <div class="col-md-4">
-        	<h2>Second Heading</h2>
-            <p>Quisque vitae consequat libero. Suspendisse mollis sem mollis, feugiat lectus quis, hendrerit lectus.</p>
-        </div>
-        
-        <div class="col-md-4">
-        	<h2>Third Heading</h2>
-            <p>Quisque venenatis congue orci, quis condimentum nibh mollis ut. Quisque eget erat eu est auctor tristique sed at velit. Praesent at tortor sed turpis gravida imperdiet sit amet in odio.</p>
-        </div>
-        
+
     </div>
-    
-    <div class="row">
-    	<div class="col-md-6">
-        	<h2>First Heading</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In magna lectus, ornare vitae velit eu, suscipit dictum nulla. Etiam porttitor hendrerit turpis, nec aliquet ipsum sodales sed. Morbi a molestie nulla. Etiam scelerisque mauris sapien, eget commodo ligula feugiat non. Proin et neque nunc. Integer auctor faucibus orci, eu rhoncus augue vehicula vel. Morbi lacinia sed ligula vel pharetra. Cras vitae blandit odio.  </p>
-        </div>
-        
-        <div class="col-md-6">
-        	<h2>Second Heading</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu euismod nisl. Morbi nisi libero, scelerisque sed neque a, tempor euismod dui. Integer ac justo venenatis, sollicitudin sem vel, molestie metus. Etiam sagittis elit a fermentum condimentum. Nunc id quam euismod mi tristique euismod. Proin mollis iaculis risus ut lobortis. Maecenas et rhoncus risus, luctus aliquet quam. Integer gravida lorem in tellus mollis, vitae ornare dolor rutrum. Pellentesque euismod, neque sit amet iaculis venenatis, nisl turpis semper dui, id dictum libero magna aliquam dui. </p>
-        </div>
-        
-        </div>
-    </div>
+
 </div>
 
 <!-- .END Grid -->
@@ -61,7 +138,7 @@
 <!-- Footer and Modal -->
 <div class="container">
 	<div class="row">
-    	<div class="col-md-lg-12">
+    	<div class="col-md-12">
         	
             <hr/>
             <!-- Copyright Info -->
