@@ -6,10 +6,10 @@
         <li data-target="#mainCarousel" data-slide-to="3"></li>
         <li data-target="#mainCarousel" data-slide-to="4"></li>
     </ol>
+    <!-- Carousel Inner -->
+    <section class="carousel-inner">
     
-    <div class="carousel-inner">
-    
-    	<div class="item active">
+    	<div class="active item">
             <img src="images/wallpaper-2933318.jpg"/>
             <div class="container">
                 <div class="carousel-caption">
@@ -64,7 +64,8 @@
             </div>
         </div>
         
-    </div>
+    </section>
+    <!-- .END - Carousel Inner -->
     
     <a class="left carousel-control" href="#mainCarousel" data-slide="prev">
     	<span class="glyphicon glyphicon-chevron-left"></span>
