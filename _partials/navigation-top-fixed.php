@@ -12,18 +12,48 @@
         <div class="navbar-collapse collapse">
         	<ul class="nav navbar-nav">
             	<li><a href="index.php">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="events.php">Events</a></li>
+                <li><a href="travel.php">Travel</a></li>
                 <li class="dropdown">
-                	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Tutorials <b class="caret"></b></a>
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Tips & Tricks <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                    	<li><a href="#">Page 1</a></li>
-                        <li><a href="#">Page 1</a></li>
-                        <li><a href="#">Page 1</a></li>
-                        <li><a href="#">Page 1</a></li>
+                    	<li><a href="tips-and-tricks.php">View All</a></li>
+                        <div class="divider"></div>
+                    	<li><a href="tips-and-tricks.php#html">HTML</a></li>
+                        <li><a href="tips-and-tricks.php#css">CSS</a></li>
+                        <li><a href="tips-and-tricks.php#php">PHP</a></li>
+                        <li><a href="tips-and-tricks.php#jquery">jQuery</a></li>
                     </ul>
                 </li>
+                <li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Videos <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    	<li><a href="videos.php">View All</a></li>
+                        <div class="divider"></div>
+                    	<li><a href="videos.php#comedy">Comedy</a></li>
+                        <li><a href="videos.php#cats">Cats</a></li>
+                        <li><a href="videos.php#sport">Sport</a></li>
+                        <div class="divider"></div>
+                        <li><a href="random-video.php">Random Video</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Artists <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    	<li><a href="artists.php">View All</a></li>
+                        <div class="divider"></div>
+                    	<li><a href="artists.php#eminem">Eminem</a></li>
+                        <li><a href="artists.php#bob-marley">Bob Marley</a></li>
+                        <li><a href="artists.php#metallica">Metallica</a></li>
+                        <li><a href="artists.php#ac-dc">AC/DC</a></li>
+                        <li><a href="artists.php#infected-mushroom">Infected Mushroom</a></li>
+                        <li><a href="artists.php#dj-skazi">DJ Skazi</a></li>
+                    </ul>
+                </li>
+                <li><a href="software.php">Software</a></li>
                 <li><a href="contact.php">Contact</a></li>
-                <li><a href="#">Maps</a></li>
+                <li><a href="maps.php">Maps</a></li>
             </ul>
         </div>
         
