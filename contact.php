@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>ideedz - index</title>
+<title>iDeedz - Get in touch</title>
 
 <!-- Header Meta - Stylesheets -->
 <?php include('_partials/header-meta.php');?>
@@ -10,7 +10,7 @@
 
 </head>
 
-<body>
+<body id="contact">
 
 <!-- Fixed Navigation bar with dropdown menu -->
 <?php include('_partials/navigation-top-fixed.php');?>
@@ -18,11 +18,11 @@
 
 <!-- Grid -->
 
-<div class="container">
+<section class="container">
 
-	<div class="row">
+	<div class="content row"><!-- row -->
 
-    	<div class="col-md-12">
+    	<section class="col-md-12">
         	<h2>Contact</h2>
             <hr/>
             
@@ -125,20 +125,20 @@
                 
             </form>
             <!-- .END - Contact Form -->
-        </div>
+        </section>
 
-    </div>
+    </div><!-- end row -->
 
-</div>
+</section>
 
 <!-- .END Grid -->
 
 
 
 <!-- Footer and Modal -->
-<div class="container">
-	<div class="row">
-    	<div class="col-md-12">
+<section class="container">
+	<div class="content row"><!-- row -->
+    	<section class="col-md-12">
         	
             <hr/>
             <!-- Copyright Info -->
@@ -148,9 +148,9 @@
             <!-- Modal -->
             <?php include('_partials/main-modal.php');?>
             <!-- .END Modal -->
-        </div>
-    </div>
-</div>
+        </section>
+    </div><!-- end row -->
+</section>
 <!-- .END Footer and Modal -->
 
 <!-- Footer Meta - JavaScript -->
