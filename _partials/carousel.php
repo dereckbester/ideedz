@@ -10,7 +10,7 @@
     <section class="carousel-inner">
     
     	<div class="active item">
-            <img src="images/wallpaper-2933318.jpg"/>
+            <img src="images/slider/wallpaper-2933318.jpg"/>
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Heading Text</h1>
@@ -21,7 +21,7 @@
         </div>
         
         <div class="item">
-            <img src="images/wallpaper-1206472.jpg"/>
+            <img src="images/slider/wallpaper-1206472.jpg"/>
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Heading Text</h1>
@@ -32,7 +32,7 @@
         </div>
         
         <div class="item">
-            <img src="images/wallpaper-2801091.jpg"/>
+            <img src="images/slider/wallpaper-2801091.jpg"/>
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Heading Text</h1>
@@ -43,7 +43,7 @@
         </div>
         
         <div class="item">
-            <img src="images/wallpaper-2933328.jpg"/>
+            <img src="images/slider/wallpaper-2933328.jpg"/>
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Heading Text</h1>
@@ -54,7 +54,7 @@
         </div>
         
         <div class="item">
-            <img src="images/wallpaper-2933305.jpg"/>
+            <img src="images/slider/wallpaper-2933305.jpg"/>
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Heading Text</h1>

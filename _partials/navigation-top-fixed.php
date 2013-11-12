@@ -14,7 +14,7 @@
             	<li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="events.php">Events</a></li>
-                <li><a href="travel.php">Travel</a></li>
+                <li><a href="venue-travel.php">Travel</a></li>
                 <li class="dropdown">
                 	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Tips & Tricks <b class="caret"></b></a>
                     <ul class="dropdown-menu">

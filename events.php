@@ -21,18 +21,19 @@
 <section class="container">
 
 	<div class="content row"><!-- row -->
-
-    	<section class="col-md-12">
-        	<h2>Events</h2>
-            <hr/>
-            
-            <!-- About Content -->
-            
-            <!-- .END - About Content -->
+    
+    	<section class="main col-md-8">
+            <!-- article venue --><?php include('_includes/article-events.php');?><!-- .END - article venue -->
+        </section>
+        
+        <section class="sidebar col-md-4">
+        	<!-- Sidebar Register --><?php include('_includes/aside-register.php');?><!-- .END - Sidebar Register -->
+            <!-- Portfolio --><?php include('_includes/aside-portfolio.php');?><!-- .END - Portfolio -->
+            <!-- Portfolio --><?php include('_includes/aside-about-the-artists.php');?><!-- .END - Portfolio -->
         </section>
 
     </div><!-- end row -->
-
+        
 </section>
 
 <!-- .END Grid -->
